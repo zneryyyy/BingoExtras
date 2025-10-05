@@ -9,7 +9,7 @@ using System.Security.Permissions;
 
 namespace BingoExtras;
 
-[BepInPlugin("org.znery.bingoextras", "Bingo Extras", "0.1.0"), BepInDependency("nacu.bingomode")]
+[BepInPlugin("org.znery.bingoextras", "Bingo Extras", "0.1.1"), BepInDependency("nacu.bingomode")]
 sealed class Plugin : BaseUnityPlugin
 {
     public static new ManualLogSource Logger;
