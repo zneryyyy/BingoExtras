@@ -80,7 +80,7 @@ namespace BingoMode.BingoChallenges
 
         public override Phrase ConstructPhrase()
         {
-            Phrase phrase = new([[new Icon("lizlick"), Icon.FromEntityName("Spear")]]);
+            Phrase phrase = new([[new Icon("mouthspear")]]);
             int lastLine = 1;
             if (region.Value != "Any Region")
             {
