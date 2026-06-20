@@ -1,11 +1,11 @@
 ﻿{
   "id": "znery.bingoextras",
   "name": "Bingo Extras",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "authors": "znery",
-  "description": "Additional content for Bingo Mode by Nacu<LINE><LINE>Goal suggestions and PRs are welcome!",
+  "description": "Additional content for Bingo Mode by Nacu and Shrub<LINE><LINE>Goal suggestions and PRs are welcome!",
   "tags": ["Game Modes", "Game Mechanics"],
-  "requirements": ["nacu.bingomode"],
-  "requirements_names": ["Bingo Mode"],
+  "requirements": ["nacu_shrub.bingomode"],
+  "requirements_names": ["Bingo"],
   "checksum_override_version": false
 }

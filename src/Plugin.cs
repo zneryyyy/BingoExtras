@@ -9,7 +9,7 @@ using System.Security.Permissions;
 
 namespace BingoExtras;
 
-[BepInPlugin("org.znery.bingoextras", "Bingo Extras", "0.1.1"), BepInDependency("nacu.bingomode")]
+[BepInPlugin("org.znery.bingoextras", "Bingo Extras", "0.1.2"), BepInDependency("nacu_shrub.bingomode")]
 sealed class Plugin : BaseUnityPlugin
 {
     public static new ManualLogSource Logger;
@@ -29,7 +29,7 @@ sealed class Plugin : BaseUnityPlugin
         IsInit = true;
 
         // Initialize assets, your mod config, and anything that uses RainWorld here
-        Logger.LogDebug("Hello world!");
+        // Logger.LogDebug("Hello world!");
 
         Futile.atlasManager.LoadAtlas("Atlases/extrasicons");
     }
